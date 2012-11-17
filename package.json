@@ -1,0 +1,19 @@
+{
+  "name": "whats",
+  "version": "0.1.0",
+  "description": "locates a module's readme and prints it to stdio",
+  "repository": {"type":"git", "url":"git@github.com:jden/whats.git"},
+  "keywords": [
+    "readme",
+    "npm",
+    "whatis"
+  ],
+  "bin": {"whats": "./bin/whats"},
+  "preferGlobal": true,
+  "author": "jden",
+  "license": "MIT",
+  "dependencies": {
+    "npm": "~1.1.65",
+    "semver": "~1.1.0"
+  }
+}
