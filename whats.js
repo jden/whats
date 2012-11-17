@@ -38,11 +38,11 @@ function whats (data) {
     ].join(' '));
 
   // show readme
-  var readme = data.versions[latest].readme || data.readme;
+  var readme = data.versions[latest].readme || data.readme || 'no readme available for ' + targetModule;
   if (!showAll) {
     readme = truncateLines(readme, 5, '... run `whats ' + targetModule + ' -r` to see full readme');
   }
-  console.log(readme || 'no readme available for ' + targetModule);
+  console.log(readme);
 }
 
 
