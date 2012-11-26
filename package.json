@@ -1,6 +1,6 @@
 {
   "name": "whats",
-  "version": "0.1.1",
+  "version": "0.1.1-r",
   "description": "locates a module's readme and prints it to stdio",
   "repository": {"type":"git", "url":"git@github.com:jden/whats.git"},
   "keywords": [

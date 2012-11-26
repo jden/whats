@@ -14,16 +14,16 @@ locates a module's readme and prints it to stdio
 
 ## Example
 
-    $ whats crdt
-    crdt by dominictarr <dominic.tarr@gmail.com>
-    Commutative Replicated Data Types for easy distributed/collaborative apps
-    38 revisions since 0.0.0 (202 days ago) latest 3.1.4 (15 days ago)
-    #CRDT - Commutative Replicated Data Types
-    a CRDT is a data type designed so that opperations on it commute - give the same result
-    indepent of the order in which they are applied.
-    CRDTs give you eventual consistency for free. it is not necessary to track concurrent changes
-    and use complicated merge algorithms. this module is useful for collaborative/distributed/peer2peer (same things)
-    ... run `whats crdt -r` to see full readme
+    $ whats taters
+    taters by shtylman <shtylman@gmail.com>
+    super hash powers for express view rendering
+    3 revisions since 0.0.0 (2 days ago) latest 0.0.2 (2 days ago)
+    # taters
+    taters is an automatic resource hashing middleware for [express](http://expressjs.com/);
+    ```javascript
+    var express = require('express');
+    var taters = require('taters');
+    ... run `whats taters -r` to see full readme
 
 ## License
 Copyright (c) 2012 Jason Denizac <jason@denizac.org>
